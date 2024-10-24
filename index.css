@@ -135,6 +135,14 @@ body {
     transform: translateY(-100%);
     z-index: 1000;
 }
+cancel-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2em; /* Adjust icon size */
+    cursor: pointer;
+    color: white; /* Adjust icon color */
+}
 .menu-section ul {
     list-style: none;
     padding: 0;
