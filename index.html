@@ -176,6 +176,10 @@
     menuSection.classList.toggle('show');
     menuIcon.classList.toggle('active');
   }
+function cancelAction() {
+    const menuSection = document.getElementById('menuSection');
+    menuSection.classList.remove('show');
+  }
 document.querySelectorAll('.menu-section a').forEach(link => {
     link.addEventListener('click', () => {
       const menuSection = document.getElementById('menuSection');
