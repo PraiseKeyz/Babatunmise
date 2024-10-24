@@ -135,7 +135,7 @@ body {
     transform: translateY(-100%);
     z-index: 1000;
 }
-cancel-icon {
+.cancel-icon {
     position: absolute;
     top: 20px;
     right: 20px;
